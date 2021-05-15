@@ -316,7 +316,6 @@
                                     <label class="form-check-label" for="flexRadioChecked4">
                                         Not yet
                                     </label> 
-                                    <input name="jamb" class="form-control form-control-lg form-control-solid"  />
                                     <!--end::Input-->
                                 </div>
                                 <div class="fv-row mb-10">
