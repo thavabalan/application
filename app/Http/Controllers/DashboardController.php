@@ -5,6 +5,8 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Models\User;
 use Auth;
+use App\Exports\UsersExport;
+use Maatwebsite\Excel\Facades\Excel;
 
 class DashboardController extends Controller
 {
@@ -33,4 +35,8 @@ class DashboardController extends Controller
         $user->save();
         return redirect()->back(); //Redirect user somewhere
      }
+     public function export() 
+    {
+        return Excel::download(new UsersExport, 'application.xlsx');
+    }
 }
