@@ -304,6 +304,18 @@
                                     </label>
                                     <!--end::Label-->
                                     <!--begin::Input-->
+                                    <input class="form-check-input" type="radio" value="Yes before 2021" name="jamb" id="flexRadioDefault2"/>  
+                                    <label class="form-check-label" for="flexRadioChecked2">
+                                        Yes before 2021
+                                     </label>             
+                                    <input class="form-check-input" type="radio" value="Yes this 2021" name="jamb" id="flexRadioDefault3"/>        
+                                    <label class="form-check-label" for="flexRadioChecked3">
+                                        Yes this 2021
+                                    </label> 
+                                    <input class="form-check-input" type="radio" value="Not yet" name="jamb" id="flexRadioDefault4"/>        
+                                    <label class="form-check-label" for="flexRadioChecked4">
+                                        Not yet
+                                    </label> 
                                     <input name="jamb" class="form-control form-control-lg form-control-solid"  />
                                     <!--end::Input-->
                                 </div>
@@ -358,7 +370,7 @@
                                      </label>             
                                     <input class="form-check-input" type="radio" value="NECO" name="waec" id="flexRadioDefault1"/>        
                                     <label class="form-check-label" for="flexRadioChecked">
-                                       WAEC
+                                        NECO
                                     </label>                     <!--end::Input-->
                                 </div>
                                 <div class="fv-row mb-10">
