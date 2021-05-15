@@ -264,7 +264,7 @@
 		<script src="assets/js/custom/modals/upgrade-plan.js"></script>
         <link href="assets/plugins/custom/datatables/datatables.bundle.css" rel="stylesheet" type="text/css"/>
 <script src="assets/plugins/custom/datatables/datatables.bundle.js"></script>
-<script src="assets/plugins/custom/jslightbox/jslightbox.bundle.js"></script>
+<script src="assets/plugins/custom/fslightbox/fslightbox.bundle.js"></script>
 
 <script>
     $("#kt_datatable_example_5").DataTable({
