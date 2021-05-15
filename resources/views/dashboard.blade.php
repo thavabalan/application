@@ -68,10 +68,12 @@
                                             <!--begin::Number-->
                                             <div class="d-flex align-items-center">
                                                 <!--begin::Svg Icon | path: icons/stockholm/Navigation/Arrow-up.svg-->
-                                                @if (auth()->user()->status === 1) 
+                                                @if (auth()->user()->status === "Approved") 
                                                 <span class="badge badge-light-success fs-8 fw-bolder my-2">Approved</span>
-                                                @elseif (auth()->user()->status === 0)
+                                                @elseif (auth()->user()->status === "Rejected")
                                                 <span class="badge badge-light-danger fs-8 fw-bolder my-2">Rejected</span>
+                                                @elseif (auth()->user()->status === "On Hold")
+                                                <span class="badge badge-light-warning fs-8 fw-bolder my-2">On Hold</span>
                                                 @else
                                                 <span class="badge badge-light-warning fs-8 fw-bolder my-2">Processing</span>
                                                 @endif                                            <!--end::Label-->

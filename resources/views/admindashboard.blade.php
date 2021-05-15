@@ -84,7 +84,7 @@
                                     </form>
                                     <form action="{{route('admin.onhold', $user->id)}}" method="POST">
                                         @csrf
-                                        <button type="submit" class="btn btn-danger">
+                                        <button type="submit" class="btn btn-warning">
                                             On Hold
                                         </button>
                                     </form>
