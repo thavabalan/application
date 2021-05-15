@@ -21,10 +21,12 @@
                 <td>{{$user->email}}</td>
                 <td>{{$user->NIN}}</td>
                 <td>{{$user->phone}}</td>
-                <td> @if ($user->status === 1) 
+                <td> @if ($user->status === "Approved") 
                     <span class="badge badge-light-success fs-8 fw-bolder my-2">Approved</span>
-                    @elseif ($user->status === 0)
+                    @elseif ($user->status === "Rejected")
                     <span class="badge badge-light-danger fs-8 fw-bolder my-2">Rejected</span>
+                    @elseif ($user->status === "On Hold")
+                    <span class="badge badge-light-warning fs-8 fw-bolder my-2">On Hold</span>
                     @else
                     <span class="badge badge-light-warning fs-8 fw-bolder my-2">Processing</span>
                     @endif   </td>
@@ -78,6 +80,12 @@
                                         @csrf
                                         <button type="submit" class="btn btn-danger">
                                             Reject
+                                        </button>
+                                    </form>
+                                    <form action="{{route('admin.onhold', $user->id)}}" method="POST">
+                                        @csrf
+                                        <button type="submit" class="btn btn-danger">
+                                            On Hold
                                         </button>
                                     </form>
                                     

@@ -21,7 +21,7 @@ class AddNewNewfieldsToUsersTable extends Migration
             $table->string('father_name')->nullable();
             $table->string('father_phone_number')->nullable();
             $table->string('mother_name')->nullable();
-            $table->date('dob')->nullable();
+            $table->text('dob')->nullable();
             $table->string('jamb_2020')->nullable();
             $table->string('jamb_reg_no')->nullable();
             $table->string('jambfile')->nullable();

@@ -16,14 +16,20 @@ class DashboardController extends Controller
     }
     public function approve($id){
         $user = User::findOrFail($id);
-        $user->status = 1; //Approved
+        $user->status = 'Approved'; //Approved
         $user->save();
         return redirect()->back(); //Redirect user somewhere
      }
      
      public function decline($id){
         $user = User::findOrFail($id);
-        $user->status = 0; //Declined
+        $user->status = 'Rejected'; //Declined
+        $user->save();
+        return redirect()->back(); //Redirect user somewhere
+     }
+     public function onhold($id){
+        $user = User::findOrFail($id);
+        $user->status = 'On Hold'; //Declined
         $user->save();
         return redirect()->back(); //Redirect user somewhere
      }

@@ -26,5 +26,5 @@ Route::get('/dashboard', function () {
 Route::get('/admindashboard',[DashboardController::class, 'show'])->middleware('admin')->name('dashboard1');
 Route::post('/approve/{id}', [DashboardController::class, 'approve'])->name('admin.approve');
 Route::post('/decline/{id}', [DashboardController::class, 'decline'])->name('admin.decline');
-
+Route::post('/onhold/{id}', [DashboardController::class, 'onhold'])->name('admin.onhold');
 require __DIR__.'/auth.php';
