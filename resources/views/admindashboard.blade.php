@@ -9,6 +9,7 @@
                 <th>Email</th>
                 <th>NIN</th>
                 <th>Phone Number</th>
+                <th>JAMB Score</th>
                 <th>Status</th>
                 <th>Action</th>
             </tr>
@@ -16,11 +17,12 @@
         <tbody>
             @foreach ($users as $user)
             <tr>
-                <td><img src="{{$user->photo}}" alt="" srcset="" width="150px"></td>
+                <td><img src="{{$user->photo}}" alt="" srcset="" width="150px"></a></td>
                 <td>{{$user->name}} {{$user->firstname}}</td>
                 <td>{{$user->email}}</td>
                 <td>{{$user->NIN}}</td>
                 <td>{{$user->phone}}</td>
+                <td>{{$user->jambscore}}</td>
                 <td> @if ($user->status === "Approved") 
                     <span class="badge badge-light-success fs-8 fw-bolder my-2">Approved</span>
                     @elseif ($user->status === "Rejected")
@@ -58,12 +60,12 @@
                                     <p>date of birth: {{$user->dob}} </p>
                                     <p>JAMB 2020 or 2021: {{$user->jamb_2020}} </p>
                                     <p>Jamb Reg NO: {{$user->jamb_reg_no}} </p>
-                                    <p>Jamb Certificate: <a href="{{$user->jambfile}}" target="_blank">View</a> </p>
+                                    <p>Jamb Certificate: <a class="d-block overlay" data-fslightbox="lightbox-basic" href="{{$user->jambfile}}"><img src="{{$user->jambfile}}" alt="" srcset="" width="150px"></a> </p>
                                     <p>Jamb Score: {{$user->jambscore}} </p>
                                     <p>WAEC or NECO: {{$user->waecorneco}} </p>
-                                    <p>WAEC or NECO RESULT: <a href="{{$user->waecorresults}}" target="_blank">View</a> </p>
+                                    <p>WAEC or NECO RESULT: <a class="d-block overlay" data-fslightbox="lightbox-basic" href="{{$user->waecorresults}}"><img src="{{$user->waecorresults}}" alt="" srcset="" width="150px"></a> </p>
                                     <p>Primary School: {{$user->primarschool}} </p>
-                                    <p>SSCE Results: <a href="{{$user->ssceresults}}" target="_blank">View</a> </p>
+                                    <p>SSCE Results:  <a class="d-block overlay" data-fslightbox="lightbox-basic" href="{{$user->ssceresults}}"><img src="{{$user->ssceresults}}" alt="" srcset="" width="150px"></a> </p>
                                     <p>State: {{$user->state}} </p>
                                     <p>LGA: {{$user->lga}} </p>
                                     <p>Program: {{$user->program}} </p>

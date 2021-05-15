@@ -38,9 +38,9 @@ class RegisteredUserController extends Controller
             'firstname' => 'required|string|max:255',
             'email' => 'required|string|email|max:255|unique:users',
             'password' => ['required', 'confirmed', Rules\Password::min(8)],
-            'jambfile'   => 'mimes:doc,pdf,docx,jpg|max:1024',
-            'waecresult' => 'mimes:doc,pdf,docx,jpg|max:1024',
-            'ssceresult' => 'mimes:doc,pdf,docx,jpg|max:1024',
+            'jambfile'   => 'mimes:jpg,png,jpeg|max:1024',
+            'waecresult' => 'mimes:jpg,png,jpeg|max:1024',
+            'ssceresult' => 'mimes:jpg,png,jpeg|max:1024',
             'photo' => 'mimes:jpg,png,jpeg|max:1024' 
         ]);
         if($request->photo){
