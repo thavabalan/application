@@ -28,7 +28,7 @@ class Applicant
 
 
         if (Auth::user()->role == 'admin') {
-            return redirect()->route('dashboard');
+            return redirect()->route('admindashboard');
         }
     }
 }

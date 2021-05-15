@@ -421,12 +421,43 @@
                                     <!--begin::Input-->
                                     <select name="state" class="form-select form-select-lg form-select-solid" data-control="select2" data-placeholder="Select..." data-allow-clear="true" data-hide-search="true">
                                         <option></option>
-                                        <option value="1">S Corporation</option>
-                                        <option value="1">C Corporation</option>
-                                        <option value="2">Sole Proprietorship</option>
-                                        <option value="3">Non-profit</option>
-                                        <option value="4">Limited Liability</option>
-                                        <option value="5">General Partnership</option>
+                                        <option value="Abia State">Abia State</option>
+                                        <option value="Adamawa State">Adamawa State</option>
+                                        <option value="Akwa Ibom State">Akwa Ibom State</option>
+                                        <option value="Anambra State">Anambra State</option>
+                                        <option value="Bauchi State">Bauchi State</option>
+                                        <option value="Bayelsa State">Bayelsa State</option>
+                                        <option value="Benue State">Benue State</option>
+                                        <option value="Borno State">Borno State</option>
+                                        <option value="Cross River State">Cross River State</option>
+                                        <option value="Delta State">Delta State</option>
+                                        <option value="Ebonyi State">Ebonyi State</option>
+                                        <option value="Edo State">Edo State</option>
+                                        <option value="Ekiti State">Ekiti State</option>
+                                        <option value="Enugu State">Enugu State</option>
+                                        <option value="Federal Capital Territory">Federal Capital Territory</option>
+                                        <option value="Gombe State">Gombe State</option>
+                                        <option value="Imo State">Imo State</option>
+                                        <option value="Jigawa State">Jigawa State</option>
+                                        <option value="Kaduna State">Kaduna State</option>
+                                        <option value="Kano State">Kano State</option>
+                                        <option value="Katsina State">Katsina State</option>
+                                        <option value="Kebbi State">Kebbi State</option>
+                                        <option value="Kogi State">Kogi State</option>
+                                        <option value="Kwara State">Kwara State</option>
+                                        <option value="Lagos State">Lagos State</option>
+                                        <option value="Nasarawa State">Nasarawa State</option>
+                                        <option value="Niger State">Niger State</option>
+                                        <option value="Ogun State">Ogun State</option>
+                                        <option value="Ondo State">Ondo State</option>
+                                        <option value="Osun State">Osun State</option>
+                                        <option value="Oyo State">Oyo State</option>
+                                        <option value="Plateau State">Plateau State</option>
+                                        <option value="Rivers State">Rivers State</option>
+                                        <option value="Sokoto State">Sokoto State</option>
+                                        <option value="Taraba State">Taraba State</option>
+                                        <option value="Yobe State">Yobe State</option>
+                                        <option value="Zamfara State">Zamfara State</option>
                                     </select>
                                     <!--end::Input-->
                                 </div>
@@ -1225,43 +1256,18 @@
                                     <!--begin::Input-->
                                     <select name="program" class="form-select form-select-lg form-select-solid" data-control="select2" data-placeholder="Select..." data-allow-clear="true" data-hide-search="true">
                                         <option></option>
-                                        <option value="Abia State">Abia State</option>
-                                        <option value="Adamawa State">Adamawa State</option>
-                                        <option value="Akwa Ibom State">Akwa Ibom State</option>
-                                        <option value="Anambra State">Anambra State</option>
-                                        <option value="Bauchi State">Bauchi State</option>
-                                        <option value="Bayelsa State">Bayelsa State</option>
-                                        <option value="Benue State">Benue State</option>
-                                        <option value="Borno State">Borno State</option>
-                                        <option value="Cross River State">Cross River State</option>
-                                        <option value="Delta State">Delta State</option>
-                                        <option value="Ebonyi State">Ebonyi State</option>
-                                        <option value="Edo State">Edo State</option>
-                                        <option value="Ekiti State">Ekiti State</option>
-                                        <option value="Enugu State">Enugu State</option>
-                                        <option value="Federal Capital Territory">Federal Capital Territory</option>
-                                        <option value="Gombe State">Gombe State</option>
-                                        <option value="Imo State">Imo State</option>
-                                        <option value="Jigawa State">Jigawa State</option>
-                                        <option value="Kaduna State">Kaduna State</option>
-                                        <option value="Kano State">Kano State</option>
-                                        <option value="Katsina State">Katsina State</option>
-                                        <option value="Kebbi State">Kebbi State</option>
-                                        <option value="Kogi State">Kogi State</option>
-                                        <option value="Kwara State">Kwara State</option>
-                                        <option value="Lagos State">Lagos State</option>
-                                        <option value="Nasarawa State">Nasarawa State</option>
-                                        <option value="Niger State">Niger State</option>
-                                        <option value="Ogun State">Ogun State</option>
-                                        <option value="Ondo State">Ondo State</option>
-                                        <option value="Osun State">Osun State</option>
-                                        <option value="Oyo State">Oyo State</option>
-                                        <option value="Plateau State">Plateau State</option>
-                                        <option value="Rivers State">Rivers State</option>
-                                        <option value="Sokoto State">Sokoto State</option>
-                                        <option value="Taraba State">Taraba State</option>
-                                        <option value="Yobe State">Yobe State</option>
-                                        <option value="Zamfara State">Zamfara State</option>
+                                        <option value="BSc. Entrepreneurship">BSc. Entrepreneurship</option>
+                                        <option value="BSc. Accounting">BSc. Accounting</option>
+                                        <option value="BSc. Economics">BSc. Economics</option>
+                                        <option value="BSc. Public Admin">BSc. Public Admin</option>
+                                        <option value="BSc. Banking & Finance">BSc. Banking & Finance</option>
+                                        <option value="BSc. Industrial Chemistry">BSc. Industrial Chemistry</option>
+                                        <option value="BSc. Biotechnology">BSc. Biotechnology</option>
+                                        <option value="BSc. Physics with Electronics">BSc. Physics with Electronics</option>
+                                        <option value="BSc. Cyber Security">BSc. Cyber Security</option>
+                                        <option value="BSc. Software Engineering">BSc. Software Engineering</option>
+                                        <option value="BSc. Computer science">BSc. Computer science</option>
+                                        <option value="LLB">LLB</option>
                                     </select>
                                     <!--end::Input-->
                                     @csrf
