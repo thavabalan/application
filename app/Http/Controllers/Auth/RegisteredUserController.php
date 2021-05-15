@@ -40,7 +40,8 @@ class RegisteredUserController extends Controller
             'password' => ['required', 'confirmed', Rules\Password::min(8)],
             'jambfile'   => 'mimes:doc,pdf,docx,jpg|max:1024',
             'waecresult' => 'mimes:doc,pdf,docx,jpg|max:1024',
-            'ssceresult' => 'mimes:doc,pdf,docx,jpg|max:1024'
+            'ssceresult' => 'mimes:doc,pdf,docx,jpg|max:1024',
+            'photo' => 'mimes:jpg,png,jpeg|max:1024' 
         ]);
         if($request->photo){
             $random_string = md5(microtime());

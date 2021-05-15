@@ -131,7 +131,20 @@ var KTCreateAccount = function () {
 								message: 'Password is required'
 							}
 						}
-					}
+					},
+					'password_confirmation': {
+                        validators: {
+                            notEmpty: {
+                                message: 'The password confirmation is required'
+                            },
+                            identical: {
+                                compare: function() {
+                                    return form.querySelector('[name="password"]').value;
+                                },
+                                message: 'The password and its confirm are not the same'
+                            }
+                        }
+                    },
 				},
 				plugins: {
 					trigger: new FormValidation.plugins.Trigger(),

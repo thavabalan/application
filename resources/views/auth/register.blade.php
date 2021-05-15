@@ -227,6 +227,7 @@
                                         <!--end::Label-->
                                         <!--begin::Input-->
                                         <input type="file"  name="photo">
+                                        <div class="form-text">Only JPG,PNG,JPEG and 1 MB Max</div>
                                         <!--end::Input-->
                                     </div>
                                     <div class="row mb-2" data-kt-buttons="true">
@@ -338,6 +339,8 @@
                                     <!--end::Label-->
                                     <!--begin::Input-->
                                     <input type="file"  name="jambfile">
+                                    <div class="form-text">Only DOC,DOCX,PDF and 1 MB Max</div>
+
                                     <!--end::Input-->
                                 </div>
                                 <div class="fv-row mb-10">
@@ -395,6 +398,7 @@
                                     <!--end::Label-->
                                     <!--begin::Input-->
                                     <input type="file"  name="waecresult">
+                                    <div class="form-text">Only DOC,DOCX,PDF and 1 MB Max</div>
                                     <!--end::Input-->
                                 </div>
                                 <div class="fv-row mb-10">
@@ -421,6 +425,7 @@
                                     <!--end::Label-->
                                     <!--begin::Input-->
                                     <input type="file"  name="ssceresult">
+                                    <div class="form-text">Only DOC,DOCX,PDF and 1 MB Max</div>
                                     <!--end::Input-->
                                 </div>
                                 <!--end::Input group-->
@@ -1324,15 +1329,7 @@
                                         <!--end::Svg Icon-->
                                         <!--end::Icon-->
                                         <!--begin::Wrapper-->
-                                        <div class="d-flex flex-stack flex-grow-1">
-                                            <!--begin::Content-->
-                                            <div class="fw-bold">
-                                                <h4 class="text-gray-800 fw-bolder">We need your attention!</h4>
-                                                <div class="fs-6 text-gray-600">To start using great tools, please, please
-                                                <a href="#" class="fw-bolder">Create Team Platform</a></div>
-                                            </div>
-                                            <!--end::Content-->
-                                        </div>
+                                        
                                         <!--end::Wrapper-->
                                     </div>
                                     <!--end::Notice-->
