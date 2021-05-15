@@ -30,7 +30,7 @@ class UsersExport implements FromCollection,WithHeadings
         'primarschool',
         'state',
         'lga',
-        'program')->get();
+        'program')->where('role','applicant')->get();
     }
     public function headings(): array
         {
